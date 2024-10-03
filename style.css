@@ -1,0 +1,41 @@
+body{
+    background-color: #121214;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+
+.main_heading{
+    font-size: 40px;
+    text-align: center;
+}
+
+.content{
+    margin-left: 25%;
+    text-align: left;
+    background-color: #252427;
+    height: 250px;
+    width: 50%;
+
+
+    border: 2px solid #ffffff;
+}
+
+.content_input{
+    background-color: #121214;
+    height: 60px;
+    width: 96%;
+    margin: 10px;
+
+    color: #ffffff;
+    font-size: 28px;
+}
+
+.content_discr{
+    font-size: 28px;
+    display: inline-block;
+    margin-top: 100%;
+
+    margin-right: 20px;
+}
+
