@@ -3,16 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="./style.css">
+    <script src="./scripts.js"></script>
     <title>Угадай число</title>
 </head>
-<body>
+<body onload="OnLoad()">
     <h1 class="main_heading">Отгадайте число от 1 до 100</h1>
     <div class="content">
-        <input type="text" class="content_input"><br>
-        <div class="content_discr">Число попыток:</div> 
-        <div class="content_discr">Подсказка:</div><br>
-        <div class="content_discr">Результат:</div>
+        <input type="text" class="content_input" id="mainInput"><br>
+        <div class="content_discr" id="tryCount">Число попыток:</div> 
+        <div class="content_discr" id="hint">Подсказка:</div><br>
+        <div class="content_discr" id="result">Результат:</div><br>
+        <button class="content_check_button" onclick="CheckAnswer()">Проверить</button>
+        <button class="content_restart_button" onclick="window.location.reload()">Начать сначала</button>
     </div>
 </body>
 </html>
